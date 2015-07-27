@@ -1,6 +1,11 @@
-util-deprecate
+chrome-util-deprecate
 ==============
-### The Node.js `util.deprecate()` function with browser support
+### The Node.js `util.deprecate()` function with chrome app support
+
+This is a fork of [util-depricate](https://github.com/TooTallNate/util-deprecate) which depends on localstorage.
+Localstorage is not supported in Chrome Apps and throws errors
+
+#### N.B This lib currently no-ops() all calls until reading the manifest is implemented
 
 In Node.js, this module simply re-exports the `util.deprecate()` function.
 

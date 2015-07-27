@@ -1,7 +1,7 @@
 {
-  "name": "util-deprecate",
-  "version": "1.0.1",
-  "description": "The Node.js `util.deprecate()` function with browser support",
+  "name": "chrome-util-deprecate",
+  "version": "1.0.0",
+  "description": "The Node.js `util.deprecate()` function with chrome app support",
   "main": "node.js",
   "browser": "browser.js",
   "scripts": {
@@ -9,19 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/util-deprecate.git"
+    "url": "git://github.com/No9/chrome-util-deprecate.git"
   },
   "keywords": [
     "util",
     "deprecate",
     "browserify",
     "browser",
-    "node"
+    "node",
+    "chromiumify",
+    "browserify-tool"
   ],
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TooTallNate/util-deprecate/issues"
+    "url": "https://github.com/No9/chrome-util-deprecate/issues"
   },
-  "homepage": "https://github.com/TooTallNate/util-deprecate"
+  "homepage": "https://github.com/No9/chrome-util-deprecate"
 }

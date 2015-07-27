@@ -47,7 +47,7 @@ function deprecate (fn, msg) {
 }
 
 /**
- * Checks `localStorage` for boolean values for the given `name`.
+ * Currently returns false but should read chrome-manifest.
  *
  * @param {String} name
  * @returns {Boolean}
@@ -55,8 +55,5 @@ function deprecate (fn, msg) {
  */
 
 function config (name) {
-  if (!global.localStorage) return false;
-  var val = global.localStorage[name];
-  if (null == val) return false;
-  return String(val).toLowerCase() === 'true';
+  return false
 }
